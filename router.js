@@ -10,8 +10,8 @@ router.get("/run", async (req, res, next) => {
   res.send(stringBuf);
 });
 
-router.get("/Active.bat", async (req, res, next) => {
-  res.sendFile(appDir + "/Active.bat");
+router.get("/active.bat", async (req, res, next) => {
+  res.sendFile(appDir + "/active.bat");
 });
 
 module.exports = router;
